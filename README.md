@@ -9,7 +9,4 @@ Project PRJ301 team 7
 ## Chủ đề
 
 
-## Technologies
-- Java Servlet
-- Bootstrap
-- 
+
