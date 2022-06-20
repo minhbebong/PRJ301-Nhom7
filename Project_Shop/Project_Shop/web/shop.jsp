@@ -1,8 +1,14 @@
-<!DOCTYPE html>
-<html lang="zxx">
+<%-- 
+    Document   : shop
+    Created on : Jun 20, 2022, 3:24:42 PM
+    Author     : asus
+--%>
 
-<head>
-    <meta charset="UTF-8">
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+       <meta charset="UTF-8">
     <meta name="description" content="Male_Fashion">
     <meta name="keywords" content="Male_Fashion, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,10 +28,9 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
-</head>
-
-<body>
-    <!-- Page Preloder -->
+    </head>
+    <body>
+          <!-- Page Preloder -->
     <div id="preloder">
         <div class="loader"></div>
     </div>
@@ -825,6 +830,5 @@
     <script src="js/mixitup.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
-</body>
-
+    </body>
 </html>

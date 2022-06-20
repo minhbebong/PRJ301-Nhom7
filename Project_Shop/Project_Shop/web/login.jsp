@@ -1,3 +1,10 @@
+<%-- 
+    Document   : login
+    Created on : Jun 20, 2022, 3:28:38 PM
+    Author     : asus
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!doctype html>
 <html lang="en">
   <head>
@@ -57,11 +64,6 @@
                     <form>
                         <div class="form-row">
                             <div class="col-lg-7">
-                                <input type="email" placeholder="Tên của bạn" class="form-control my-3 p-4">
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="col-lg-7">
                                 <input type="email" placeholder="Email" class="form-control my-3 p-4">
                             </div>
                         </div>
@@ -72,10 +74,11 @@
                         </div>
                         <div class="form-row">
                             <div class="col-lg-7">
-                               <a href="./login.html"><button type="button" class="btn1 mt-3 mb-5">Đăng ký</button></a> 
+                                <a href="./index.html"><button type="button" class="btn1 mt-3 mb-5">Đăng nhập</button></a>
                             </div>
                         </div>
-                        <p>Bạn đã có tài khoản? <a href="./login.html">Đăng nhập?</a></p>
+                        <a href="#">Quên mật khẩu?</a>
+                        <p>Bạn chuưa có tài khoản? <a href="./register.html">Đăng ký?</a></p>
                     </form>
                 </div>
             </div>

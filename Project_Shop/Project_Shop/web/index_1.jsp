@@ -1,3 +1,10 @@
+<%-- 
+    Document   : index_1
+    Created on : Jun 20, 2022, 3:29:53 PM
+    Author     : asus
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="zxx">
 
