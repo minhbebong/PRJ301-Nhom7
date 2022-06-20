@@ -1,3 +1,10 @@
+<%-- 
+    Document   : blog-details
+    Created on : Jun 20, 2022, 3:23:33 PM
+    Author     : bavan
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="zxx">
 
