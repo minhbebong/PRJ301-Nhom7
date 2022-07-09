@@ -84,11 +84,7 @@ public class AccountDAO {
 
     public void Register(Account a) {
         try {
-<<<<<<< HEAD
             String sql = "INSERT INTO [ShoppingOnline].[dbo].[Account]\n"
-=======
-            String sql = "INSERT INTO   [dbo].[Account]\n"
->>>>>>> 41c5493f49b1760426b0080bd3ab16a75e87ea1f
                     + "           ([username]\n"
                     + "           ,[password]\n"
                     + "           ,[displayName]\n"
@@ -116,11 +112,7 @@ public class AccountDAO {
 
     public void updateAccount(int id, String name, String email, String phone, String address, String role) {
         try {
-<<<<<<< HEAD
             String sql = "UPDATE [ShoppingOnline].[dbo].[Account]\n"
-=======
-            String sql = "UPDATE   [dbo].[Account]\n"
->>>>>>> 41c5493f49b1760426b0080bd3ab16a75e87ea1f
                     + "   SET [displayName] = ?\n"
                     + "      ,[address] = ?\n"
                     + "      ,[email] = ?\n"
@@ -169,11 +161,7 @@ public class AccountDAO {
 
     public void updateAccountAndPass(int id, String name, String email, String phone, String address, String role, String newPass) {
         try {
-<<<<<<< HEAD
             String sql = "UPDATE [ShoppingOnline].[dbo].[Account]\n"
-=======
-            String sql = "UPDATE   [dbo].[Account]\n"
->>>>>>> 41c5493f49b1760426b0080bd3ab16a75e87ea1f
                     + "   SET [displayName] = ?\n"
                     + "      ,[address] = ?\n"
                     + "      ,[email] = ?\n"
@@ -345,11 +333,7 @@ public class AccountDAO {
 
     public void updateAccountRoleByID(int accountId) {
         try {
-<<<<<<< HEAD
             String sql = "UPDATE [ShoppingOnline].[dbo].[Account]\n"
-=======
-            String sql = "UPDATE   [dbo].[Account]\n"
->>>>>>> 41c5493f49b1760426b0080bd3ab16a75e87ea1f
                     + "   SET [role] = 'ADMIN'\n"
                     + " WHERE id=?";
             conn = new DBContext().getConnection();
