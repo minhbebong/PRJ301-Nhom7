@@ -319,7 +319,7 @@ public class ProductDAO {
 
     public void DeleteProductById(int id) {
         try {
-            String query = "DELETE FROM [ShoppingOnline].[dbo].[Product]\n"
+            String query = "DELETE FROM [ShoppingOnlineText].[dbo].[Product]\n"
                     + "      WHERE id=?";
 
             conn = new DBContext().getConnection();
@@ -334,7 +334,7 @@ public class ProductDAO {
 
     public void addProduct(Product p) {
         try {
-            String query = "INSERT INTO [ShoppingOnline].[dbo].[Product]\n"
+            String query = "INSERT INTO [ShoppingOnlineText].[dbo].[Product]\n"
                     + "           ([categoryId]\n"
                     + "           ,[code]\n"
                     + "           ,[name]\n"
@@ -364,7 +364,7 @@ public class ProductDAO {
 
     public void updateProductById(Product p) {
         try {
-            String query = "UPDATE [ShoppingOnline].[dbo].[Product]\n"
+            String query = "UPDATE [ShoppingOnlineText].[dbo].[Product]\n"
                     + "   SET [categoryId] = ?\n"
                     + "      ,[code] = ?\n"
                     + "      ,[name] = ?\n"
@@ -414,7 +414,7 @@ public class ProductDAO {
 
     public void updateQuantityProduct(int productId, int quantityOfCart) {
         try {
-            String query = "UPDATE [ShoppingOnline].[dbo].[Product]\n"
+            String query = "UPDATE [ShoppingOnlineText].[dbo].[Product]\n"
                     + "   SET [quantity] = quantity - ?\n"
                     + " WHERE id=?";
 

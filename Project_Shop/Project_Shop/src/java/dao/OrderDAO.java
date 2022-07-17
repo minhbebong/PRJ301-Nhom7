@@ -31,7 +31,7 @@ public class OrderDAO {
 
     public int createAndGetId(Order order) {
         try {
-            String sql = "INSERT INTO [ShoppingOnline].[dbo].[Orders]\n"
+            String sql = "INSERT INTO [ShoppingOnlineText].[dbo].[Orders]\n"
                     + "           ([account_id]\n"
                     + "           ,[totalPrice]\n"
                     + "           ,[note]\n"
@@ -128,7 +128,7 @@ public class OrderDAO {
 
     public void updateStatusOrderByOrderId(int orderId, int status) {
         try {
-            String sql = "UPDATE [ShoppingOnline].[dbo].[Orders]\n"
+            String sql = "UPDATE [ShoppingOnlineText].[dbo].[Orders]\n"
                     + "   SET [status] = ?\n"
                     + " WHERE id= ?";
             conn = new DBContext().getConnection();

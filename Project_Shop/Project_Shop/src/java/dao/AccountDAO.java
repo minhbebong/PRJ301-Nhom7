@@ -84,7 +84,7 @@ public class AccountDAO {
 
     public void Register(Account a) {
         try {
-            String sql = "INSERT INTO [ShoppingOnline].[dbo].[Account]\n"
+            String sql = "INSERT INTO [ShoppingOnlineText].[dbo].[Account]\n"
                     + "           ([username]\n"
                     + "           ,[password]\n"
                     + "           ,[displayName]\n"
@@ -112,7 +112,7 @@ public class AccountDAO {
 
     public void updateAccount(int id, String name, String email, String phone, String address, String role) {
         try {
-            String sql = "UPDATE [ShoppingOnline].[dbo].[Account]\n"
+            String sql = "UPDATE [ShoppingOnlineText].[dbo].[Account]\n"
                     + "   SET [displayName] = ?\n"
                     + "      ,[address] = ?\n"
                     + "      ,[email] = ?\n"
@@ -161,7 +161,7 @@ public class AccountDAO {
 
     public void updateAccountAndPass(int id, String name, String email, String phone, String address, String role, String newPass) {
         try {
-            String sql = "UPDATE [ShoppingOnline].[dbo].[Account]\n"
+            String sql = "UPDATE [ShoppingOnlineText].[dbo].[Account]\n"
                     + "   SET [displayName] = ?\n"
                     + "      ,[address] = ?\n"
                     + "      ,[email] = ?\n"
@@ -240,7 +240,7 @@ public class AccountDAO {
                 + "</head>\n"
                 + "\n"
                 + "<body>\n"
-                + "    <h1 style=\"color: blue;\">Huy Hoang Watch</h1>\n"
+                + "    <h1 style=\"color: blue;\">Male Fashion</h1>\n"
                 + "    <h3 style=\"color: blue;\">Your order has been processing.</h3>\n"
                 + "    <div>Full Name: " + order.getShipping().getName() + "</div>\n"
                 + "    <div>Phone :" + order.getShipping().getPhone() + "</div>\n"
@@ -263,7 +263,7 @@ public class AccountDAO {
                 + "</head>\n"
                 + "\n"
                 + "<body>\n"
-                + "    <h1 style=\"color: blue;\">Huy Hoang Watch</h1>\n"
+                + "    <h1 style=\"color: blue;\">Male Fashion</h1>\n"
                 + "    <h3 style=\"color: red;\">Your order has been cancelled.</h3>\n"
                 + "    <h3 style=\"color: blue;\">Thank you very much!</h3>\n"
                 + "\n"
@@ -333,7 +333,7 @@ public class AccountDAO {
 
     public void updateAccountRoleByID(int accountId) {
         try {
-            String sql = "UPDATE [ShoppingOnline].[dbo].[Account]\n"
+            String sql = "UPDATE [ShoppingOnlineText].[dbo].[Account]\n"
                     + "   SET [role] = 'ADMIN'\n"
                     + " WHERE id=?";
             conn = new DBContext().getConnection();

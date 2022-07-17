@@ -26,7 +26,7 @@ public class ShippingDAO {
 
     public int createAndGetId(Shipping shipping) {
         try {
-            String sql = "INSERT INTO [ShoppingOnline].[dbo].[Shipping]\n"
+            String sql = "INSERT INTO [ShoppingOnlineText].[dbo].[Shipping]\n"
                     + "           ([name]\n"
                     + "           ,[phone]\n"
                     + "           ,[address])\n"

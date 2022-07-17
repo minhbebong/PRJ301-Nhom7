@@ -19,11 +19,11 @@ public class DBContext {
     /*Insert your other code right after this comment*/
    
     /*Change/update information of your database connection, DO NOT change name of instance variables in this class*/
-    private final String serverName = "DESKTOP-24N22GO";
+    private final String serverName = "DESKTOP-PRU915R\\DBI";
     private final String dbName = "ShoppingOnlineText";
     private final String portNumber = "1433";
-    private final String userID = "van";
-    private final String password = "228239";
+    private final String userID = "sa";
+    private final String password = "123";
     
     //Test connection
     public static void main(String[] args) {

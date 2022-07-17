@@ -31,7 +31,7 @@ public class OrderDetailDAO {
     public void saveCart(int orderID, Map<Integer, Cart> carts) {
         try {
 
-            String sql = "INSERT INTO [ShoppingOnline].[dbo].[OrderDetail]\n"
+            String sql = "INSERT INTO [ShoppingOnlineText].[dbo].[OrderDetail]\n"
                     + "           ([order_id]\n"
                     + "           ,[productName]\n"
                     + "           ,[productImage]\n"

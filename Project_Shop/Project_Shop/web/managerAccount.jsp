@@ -62,6 +62,7 @@
                                 <td>${A.phone}</td>
                                 <td>${A.role}</td>
                                 <td><button type="submit"  class="btn  bg-success text-white" type="submit">Let's be admin</button></td>
+                                <td><button type="delete"  class="btn  bg-success text-white" type="submit">Delete</button></td>
                             </tr>  
                         </c:forEach>
 
